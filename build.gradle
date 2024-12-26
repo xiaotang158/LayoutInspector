@@ -33,8 +33,4 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-android {
-    lintOptions {
-        abortOnError false // 不因 Lint 报错中断构建
-    }
-}
+
